@@ -1,0 +1,135 @@
+* {
+    border: 0px solid rgb(0, 0, 0);
+}
+.page {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 10px;
+    width: 360px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 140;
+}
+.logotip {
+    width: 120px;
+    height: 100px;
+    margin: 24px;
+}
+.menu {
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-list {
+    display: flex; 
+    flex-direction: column;
+    width: 120px;
+    row-gap: 15px;
+    column-gap: 30px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menu-link {
+    display: flex;
+    color: #f5f5f5;
+    font-size: 20px;
+    line-height: 20px;
+}
+.menu-class-link {
+    display: flex;
+    color: #f5f5f5;
+    font-size: 20px;
+    line-height: 20px;
+}
+.cover {
+    background-image: url(cover.svg);  
+    background-repeat: no-repeat;
+    width: 339px;
+    height: 198px;
+    justify-content: center;
+}
+.cover-title {
+    margin: 0;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 40px;
+    line-height: 70%;
+    font-weight: 300px;
+}
+.span {
+    display: flex;
+    width: 50px;
+    height: 70px;
+    color: #FFFFFF;
+     font-size: 70px;
+    line-height: 70px;
+    justify-content: left;
+    padding: 0 0 70px 0 ;
+}
+.span-text-centre {
+    text-align: center;
+    width: 50px;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: 70px;
+    line-height: 70px;
+    justify-content: left;
+    padding: 0 0 70px 0 ;
+}
+.span-text-right {
+    text-align: center;
+    width: 100px;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: 70px;
+    line-height: 70px;
+    padding: 0px 100px;
+}
+.intro {
+    margin: 20px;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.into-title {
+    margin: 0px;
+    color: #cccccc;
+    font-size: 20px;
+    line-height: 100px;
+    font-weight: 230px;
+    width: 150px;
+}
+.intro-date{
+    
+    margin: 0;
+    color:  #cccccc;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 150px;
+    margin: 24px;
+    font-family:Arial, Helvetica, sans-serif 
+}
+.main-text {
+    color: #f5f5f5;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 250px;
+    margin: 0;
+}
+.span2 {
+    display: flex;
+}
+.span2-Reasons {
+    display: flex;
+}
+.span2-rb {
+    display: flex;
+}
+
+
+
